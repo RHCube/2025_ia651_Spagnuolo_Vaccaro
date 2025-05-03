@@ -1,0 +1,10 @@
+,model,train_or_test,mse,r^2
+1,random_forest_important_features,test,18280254.941121075,
+2,random_forest_no_null,test,16963579.160374027,
+3,random_forest_bimodal_dropped,test,33814431.98473534,
+4,random_forest_bimodal_imp,test,79579885.13473038,
+5,lasso_no_null,test,42586891.8695202,0.7748783775039356
+6,lasso_no_null,train,43776670.75587558,0.7463173331310669
+7,lasso_important,test,45840826.32987421,0.7576775212532584
+8,ridge_important,test,46030129.54680881,0.7566768319456045
+9,ridge_no_null,test,42704921.96215996,0.7742544501687397
