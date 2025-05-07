@@ -27,7 +27,7 @@ The dataset includes:
 
 - This dataset is useful for identifying patterns in post-graduate success and understanding what institutional factors influence student outcomes. It’s particularly relevant for prospective students and policymakers.
 
-![alt text](image-1.png)
+![Image 1](images/image-1.png)
 
 # Outline what you plan to predict.  
 ## How might this prediction be used in production or in practice?
