@@ -83,7 +83,7 @@ Skewed: some outcome rates and demographic proportions
 
 Bimodal: COMP_ORIG_YR6_RT, DEP_COMP_ORIG_YR4_RT
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 
@@ -98,12 +98,12 @@ We explored two paths:
 
 Distribution was moderately right-skewed.
 
-![alt text](Ydistribution-1.png)
+![alt text](images/Ydistribution-1.png)
 
 
 ## Correlation - are some features strongly correlated?  
 Some strong correlations between completion/withdrawal-related metrics, raising concerns about multicollinearity 
-![alt text](Correlationsfinal-1.png)
+![alt text](images/Correlationsfinal-1.png)
 
 
 
@@ -115,7 +115,7 @@ VIF Analysis showed multicollinearity across several academic outcome variables.
 
 PCA reduced dimensionality, retaining 80% of explained variance 
 
-![alt text](ScreePlot-2-1.png)
+![alt text](images/ScreePlot-2-1.png)
 
 
 
@@ -163,7 +163,7 @@ We chose an 80/20 train-test split to balance two key goals:
 - Ridge Regression using only features that showed importance after PCA: R^2 = 0.757 MSE: 46030129.55
 - Ridge Regression using all features: R^2: 0.774 MSE: 42704921.96
 - Stepwise Regression (using 11 features): R^2: 0.661 MSE: 30368563597.38 (Not shown in table below)
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ## Many have tried multiple model types - what is the thought process for trying these types?
 
@@ -201,10 +201,10 @@ The four types of models we chose were:
 
 
 ## Give 2-4 prediction examples from your data.
-![alt text](<prediction vs actual-1.png>)
+![alt text](<images/prediction vs actual-1.png>)
 
 ## Give 2 prediction examples which are new or synthesized. 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 # Overfitting/Underfitting
 ## Identify if model is overfitting or underfitting
